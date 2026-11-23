@@ -1,0 +1,16 @@
+[package]
+name = "insolate"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+csv = "1.4.0"
+directories = "6.0.0"
+reqwest = { version = "0.13.5", features = ["gzip", "blocking", "query"] }
+serde = "1.0.229"
+serde_derive = "1.0.229"
+serde_json = "1.0.154"
+lexopt = "0.3.2"
+eframe = "0.37.0"
+egui_plot = "0.38.0"
+rfd = { version = "0.18.0", default-features = false, features = [ "xdg-portal" ] }
